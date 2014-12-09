@@ -1,27 +1,63 @@
 /*
-	Aerial by HTML5 UP
+	Parallelism by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Wrapper */
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
 
-	#wrapper {
-		opacity: 1;
+	body
+	{
+		height: 100%;
+		width: 100%;
 	}
 
-/* Overlay */
-
-	#overlay {
-		opacity: 1;
+	ul.contact
+	{
 	}
-
-/* Header */
-
-	#header {
-		opacity: 1;
-	}
-
-		#header nav li {
-			opacity: 1;
+	
+		ul.contact li
+		{
+			margin: 0 1em 0 0;
 		}
+
+	/* Item */
+
+		.item
+		{
+			height: 13em;
+			display: inline-block;
+			border: solid 5px #fff;
+		}
+		
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+
+	#main
+	{
+		position: relative;
+	}
+
+/*********************************************************************************/
+/* Reel                                                                          */
+/*********************************************************************************/
+
+	#reel 
+	{
+		overflow: hidden;
+		border: solid 5px #fff;
+		background: #fff;
+	}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+	#footer
+	{
+		margin: 2em 0 0 0;
+		position: relative;
+	}
